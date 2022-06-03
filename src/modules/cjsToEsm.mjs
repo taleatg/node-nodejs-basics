@@ -30,6 +30,10 @@ const createMyServer = createServerHttp((_, res) => {
     res.end('Request accepted');
 });
 
+createMyServer.listen(3000, 'localhost', () => {
+    console.log('http://localhost:3000/');
+})
+
 export {
     unknownObject,
     createMyServer,

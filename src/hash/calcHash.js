@@ -15,7 +15,7 @@ export const calculateHash = async () => {
     } else {
       const hash = crypto.createHash('sha256');
       const hex = hash.update(data).digest('hex');
-      console.log('hex =',hex);
+      console.log(hex);
     }
   })
 };

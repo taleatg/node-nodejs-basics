@@ -11,7 +11,7 @@ export const decompress = async () => {
 
   const unzip = zlib.createUnzip();
   const input = fs.createReadStream(`${file}/archive.gz`);
-  const output = fs.createWriteStream(`${file}/fileToDecompress.txt`);
+  const output = fs.createWriteStream(`${file}/fileToСompress.txt`);
   
   input.pipe(unzip).pipe(output);
 };

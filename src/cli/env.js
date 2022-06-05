@@ -3,7 +3,7 @@ export const parseEnv = () => {
 
   for (const key in process.env) {
     if (key.includes('RSS_')) {
-      result += `${key}=${process.env[key]}; `;
+      result += result === '' ? `${key}=${process.env[key]}` : ` ; ${key}=${process.env[key]}`;
     }
   }
 

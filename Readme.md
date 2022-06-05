@@ -1,6 +1,6 @@
 # Node.js basics
 
-## Script for testing:
+## Scripts for testing:
 
 #### File system (src/fs)
 * npm run fs:copy
@@ -30,7 +30,7 @@
 * npm run zip:decompress
 
 #### Worker Threads (src/wt)
-
+* npm run wt
 
 #### Child Processes (src/cp)
 * npm run cp

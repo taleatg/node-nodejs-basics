@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cli:args": "node src/cli/args.js --propName value --prop2Name value2",
+    "cli:env": "set RSS_name1=value1; RSS_name2=value2; RSS_name3=value3 & node src/cli/env.js",
+    "cp": "node src/cp/cp.js",
     "fs:copy": "node src/fs/copy.js",
     "fs:create": "node src/fs/create.js",
     "fs:delete": "node src/fs/delete.js",
